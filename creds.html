@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Now!</title>
+    <link rel="stylesheet" href="styles.css">
+
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz@6..96&family=Inter:wght@200&family=Orbitron:wght@900&family=Raleway:wght@200&family=Sacramento&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    
+    <div class="hero-section">
+        <div class=nav>
+            <div class="navbar">
+            <a href="index.html">
+            <div class="logo-f">
+                <div class="logo"></div>
+                <p>alpus</p>
+            </div>
+            </a>
+
+            <div class="nav-ops">
+                <a href="index.html">HOME</a>
+                <a href="resources.html">RESOURCES</a>
+                <a>MORE</a>
+            </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+
+    <div class="form-box">
+        <form action="creds.php" method="post">
+
+        <div class="form_row">
+
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <br>
+                <input type="text" name="name" id="name" placeholder="Enter your name">
+            </div>
+            <div class="form-group">
+                <label for="age">Age:</label>
+                <br>
+                <input type="text" name="age" id="age" placeholder="Enter your age">
+            </div>
+
+        </div>  
+        
+        <div class="form_row">
+
+            <div class="form-group">
+                <label for="gender">Gender:</label>
+                <br>
+                <input type="text" name="gender" id="gender" placeholder="Enter your gender">
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <br>
+                <input type="email" name="email" id="email" placeholder="Enter your email">
+            </div>
+
+        </div>
+
+        <div class="form_row">
+
+            <div class="form-group">
+                <label for="phone">Phone:</label>
+                <br>
+                <input type="tel" name="phone" id="phone" placeholder="Enter your phone">
+            </div>
+            <div class="form-group">
+                <label for="activity">Select the desired activity :</label> 
+                <br>
+                <select id="activity" name="activity" required >
+                    <option value="" disabled hidden selected >Select </option>
+                    <option value="forest camping">Forest Camping</option>
+                    <option value="trekking">Trekking</option>
+                    <option value="waterfall camp">Waterfall Camp</option>
+                </select>
+            </div>
+
+        </div>  
+        <div class="end">
+                <div class="form-group">
+                    <label for="more">Additional Information:</label>
+                    <br>
+                    <textarea name="more" id="more" cols="60" rows="3" placeholder="Enter any other information here"></textarea>
+                </div>
+                <button class="btn" type="submit">Submit</button>
+             </div>
+        </form>
+    </div>
+</div>
+        
+       
+    <footer>
+
+        <div class="sub3">
+                
+            <div class="foot">
+                <div class="logo-f">
+                    <div class="logo"></div>
+                    <p>alpus</p>
+                </div>
+
+                <div class="contact">
+                    <H3>CONTACTS  </H3>
+    
+                    <div class="line">
+                        <div class="tel"></div>
+                        <a href="tel:">(555) 555-0100</a>
+                    </div>
+    
+                    <div class="line">
+                        <div class="mail"></div>
+                        <a href="mailto:alpusconnect@gmail.com">alpusconnect@gmail.com</a>
+                    </div>
+                </div>  
+
+                <div class="contact">
+                    <H3>SOCIAL HANDLES</H3>
+
+                    <div class="line">
+                        <div class="insta"></div>
+                        <a href="instagram.com">@alpusconnect</a>
+                    </div>
+
+                    <div class="line">
+                        <div class="fb"></div>
+                        <a href="facebook.com">@alpusatfb</a>
+                    </div>
+                </div>
+        
+            </div>
+        
+                <p class="me">Developed by &nbsp; <a class="git" href="https://github.com/ekxhta"> Ekshta <img src="./IMGS/icons8-github-48.png" alt=""></a> </p>
+        </div>
+        
+  
+    </footer>
+</body>
+</html>
